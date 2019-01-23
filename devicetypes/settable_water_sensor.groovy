@@ -32,10 +32,10 @@ metadata {
 			state "wet", icon:"st.alarm.water.wet", backgroundColor:"#53a7c0", action: "dry"
 		}
 		standardTile("wet", "device.water", inactiveLabel: false, decoration: "flat") {
-			state "default", label:'Wet', action:"wet", icon: "st.alarm.water.wet"
+			state "default", label:'Wet', icon: "st.alarm.water.wet"
 		}         
 		standardTile("dry", "device.water", inactiveLabel: false, decoration: "flat") {
-			state "default", label:'Dry', action:"dry", icon: "st.alarm.water.dry"
+			state "default", label:'Dry', icon: "st.alarm.water.dry"
 		}  
 		main "water"
 		details(["water","wet","dry"])
