@@ -17,7 +17,7 @@ import physicalgraph.zigbee.clusters.iaszone.ZoneStatus
 import physicalgraph.zigbee.zcl.DataType
 
 metadata {
-	definition(name: "SmartSense Multi Sensor TempTile", namespace: "smartthings", author: "SmartThings", runLocally: false, minHubCoreVersion: '000.017.0012', executeCommandsLocally: false, mnmn: "SmartThings", vid: "generic-contact-2") {
+	definition(name: "SmartSense Multi Sensor TempTile 2", namespace: "smartthings", author: "SmartThings", runLocally: true, minHubCoreVersion: '000.017.0012', executeCommandsLocally: false, mnmn: "SmartThings", vid: "generic-contact-2") {
 
 		capability "Three Axis"
 		capability "Battery"
@@ -112,7 +112,7 @@ metadata {
 		}
 
 
-		main(["temperature", "acceleration", "status"])
+		main(["temperature"])
 		details(["status", "acceleration", "temperature", "battery", "refresh"])
 	}
 }
