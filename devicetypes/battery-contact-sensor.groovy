@@ -13,7 +13,7 @@
  */
 metadata {
 	// Automatically generated. Make future change here.
-	definition (name: "Simulated Contact Sensor", namespace: "smartthings/testing", author: "bob") {
+	definition (name: "Battery Contact Sensor", namespace: "smartthings/testing", author: "bob") {
 		capability "Contact Sensor"
 		capability "Sensor"
 		capability "Health Check"
@@ -29,8 +29,8 @@ metadata {
 
 	tiles {
 		standardTile("contact", "device.contact", width: 2, height: 2) {
-			state("closed", label:'${name}', icon:"st.contact.contact.closed", backgroundColor:"#00A0DC", action: "open")
-			state("open", label:'${name}', icon:"st.contact.contact.open", backgroundColor:"#e86d13", action: "close")
+			state("closed", label:'CLEAR', icon:"st.contact.contact.closed", backgroundColor:"#00A0DC", action: "open")
+			state("open", label:'ISSUE', icon:"st.contact.contact.open", backgroundColor:"#e86d13", action: "close")
 		}
 		main "contact"
 		details "contact"

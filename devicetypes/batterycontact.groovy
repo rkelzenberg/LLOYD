@@ -1,0 +1,1 @@
+https://github.com/SmartThingsCommunity/SmartThingsPublic/blob/master/devicetypes/smartthings/testing/simulated-contact-sensor.src/simulated-contact-sensor.groovy
