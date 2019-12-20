@@ -1,0 +1,64 @@
+{
+    "name": "Stove Light",
+    "basename": "SYLVANIA Smart A19 RGBW",
+    "deviceid": "d1d71f3e-bd46-4b49-af99-b28f8b3cc05f",
+    "status": "ONLINE",
+    "manufacturer": "LEDVANCE",
+    "model": "A19 RGBW",
+    "deviceNetworkId": "7791",
+    "lastActivity": "2019-12-20T11:58:59+0000",
+    "capabilities": [
+        "Switch",
+        "Configuration",
+        "Switch Level",
+        "Refresh",
+        "Color Control",
+        "Actuator",
+        "Color Temperature",
+        "Health Check",
+        "Light"
+    ],
+    "commands": [
+        "on",
+        "off",
+        "configure",
+        "setLevel",
+        "refresh",
+        "setHue",
+        "setSaturation",
+        "setColor",
+        "setColorTemperature",
+        "ping"
+    ],
+    "customflags": [
+        
+    ],
+    "attributes": {
+        "switch": "off",
+        "level": 100,
+        "hue": 83,
+        "saturation": 100,
+        "color": null,
+        "colorTemperature": 7042,
+        "checkInterval": 720,
+        "DeviceWatch-DeviceStatus": null,
+        "healthStatus": null,
+        "DeviceWatch-Enroll": null,
+        "colorName": "Daylight"
+    },
+    "eventHistory": [
+        "Fri Dec 20 05:30:22 UTC 2019 | [switch] | (off)",
+        "Thu Dec 19 21:58:56 UTC 2019 | [switch] | (on)",
+        "Thu Dec 19 21:58:56 UTC 2019 | [null] | (on)",
+        "Thu Dec 19 21:58:50 UTC 2019 | [switch] | (off)",
+        "Thu Dec 19 21:58:50 UTC 2019 | [null] | (off)",
+        "Thu Dec 19 21:58:48 UTC 2019 | [null] | (setColorTemperature)",
+        "Thu Dec 19 21:58:47 UTC 2019 | [null] | (setColorTemperature)",
+        "Thu Dec 19 21:58:03 UTC 2019 | [switch] | (on)",
+        "Thu Dec 19 21:55:35 UTC 2019 | [switch] | (off)",
+        "Thu Dec 19 21:55:35 UTC 2019 | [switch] | (off)",
+        "Thu Dec 19 21:55:26 UTC 2019 | [switch] | (on)",
+        "Thu Dec 19 20:42:58 UTC 2019 | [switch] | (off)",
+        "Thu Dec 19 13:29:08 UTC 2019 | [switch] | (on)"
+    ]
+}

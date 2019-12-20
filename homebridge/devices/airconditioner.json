@@ -1,0 +1,44 @@
+{
+    "name": "Air Conditioner",
+    "basename": "Outlet",
+    "deviceid": "e7ea3158-aa1a-4e84-8bfe-b138afdd2d91",
+    "status": "ONLINE",
+    "manufacturer": "CentraLite",
+    "model": "3210-L",
+    "deviceNetworkId": "6826",
+    "lastActivity": "2019-12-20T11:49:16+0000",
+    "capabilities": [
+        "Switch",
+        "Configuration",
+        "Refresh",
+        "Energy Meter",
+        "Power Meter",
+        "Sensor",
+        "Actuator"
+    ],
+    "commands": [
+        "on",
+        "off",
+        "configure",
+        "refresh",
+        "resetEnergyUsage"
+    ],
+    "customflags": [
+        
+    ],
+    "attributes": {
+        "switch": "off",
+        "energy": 2.8324802364082156,
+        "power": 0,
+        "heartbeat": "alive",
+        "timerStart": null,
+        "energyDisplay": " 2.832 kWh",
+        "elapsedTimeDisplay": "33d 14:51:18"
+    },
+    "eventHistory": [
+        "Fri Dec 20 03:00:03 UTC 2019 | [switch] | (off)",
+        "Fri Dec 20 02:59:59 UTC 2019 | [null] | (off)",
+        "Thu Dec 19 21:23:18 UTC 2019 | [switch] | (on)",
+        "Thu Dec 19 21:23:17 UTC 2019 | [null] | (on)"
+    ]
+}
