@@ -1,0 +1,18 @@
+{
+    "platform": "SmartThings-v2",
+    "name": "SmartThings-v2",
+    "app_url": "https://graph-na02-useast1.api.smartthings.com:443/api/smartapps/installations/",
+    "app_id": "32d973c7-9ce8-44ee-9303-6751a50f39cd",
+    "access_token": "db23112c-8497-4b6a-a76c-8c264f37a321",
+    "temperature_unit": "F",
+    "validateTokenId": false,
+    "logConfig": {
+        "debug": false,
+        "showChanges": true,
+        "hideTimestamp": false,
+        "hideNamePrefix": false,
+        "file": {
+            "enabled": true
+        }
+    }
+}
