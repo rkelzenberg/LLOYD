@@ -1,0 +1,35 @@
+{
+  "accessories" : [
+
+  ],
+  "bridge" : {
+    "name" : "HOOBS",
+    "pin" : "031-45-154",
+    "port" : 51826,
+    "username" : "5D:90:16:16:77:BD"
+  },
+  "client" : {
+    "country_code" : "US",
+    "default_route" : "status",
+    "inactive_logoff" : 30,
+    "locale" : "en",
+    "postal_code" : "94040",
+    "temp_units" : "fahrenheit",
+    "theme" : "hoobs-light"
+  },
+  "description" : "",
+  "platforms" : [
+
+  ],
+  "ports" : {
+
+  },
+  "server" : {
+    "autostart" : 0,
+    "home_setup_id" : "X-HM://0023ISYWYE3L7",
+    "origin" : "*",
+    "polling_seconds" : 5,
+    "port" : 8080
+  },
+  "system" : "hoobs"
+}
