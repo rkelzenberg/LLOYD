@@ -19,7 +19,32 @@
   },
   "description" : "",
   "platforms" : [
-
+    {
+      "access_token" : "db23112c-8497-4b6a-a76c-8c264f37a321",
+      "app_id" : "32d973c7-9ce8-44ee-9303-6751a50f39cd",
+      "app_url" : "https://graph-na02-useast1.api.smartthings.com:443/api/smartapps/installations/",
+      "communityUserName" : "GRClark",
+      "direct_port" : 8080,
+      "disableErrorReporting" : false,
+      "local_commands" : true,
+      "logConfig" : {
+        "debug" : false,
+        "file" : {
+          "enabled" : true,
+          "level" : "Good"
+        },
+        "hideNamePrefix" : true,
+        "hideTimestamp" : true,
+        "showChanges" : true
+      },
+      "name" : "SmartThings-v2",
+      "platform" : "SmartThings-v2",
+      "plugin_map" : {
+        "plugin_name" : "homebridge-smartthings-v2"
+      },
+      "temperature_unit" : "F",
+      "validateTokenId" : false
+    }
   ],
   "ports" : {
 
