@@ -1,0 +1,10 @@
+
+"platforms": [
+   {
+       "platform": "Arlo",
+       "name": "Arlo",
+       "email": "<gene.r.clark@gmail.com>",
+       "password": "<insert arlo account password>"
+       "interval": 6000 
+   }
+]
