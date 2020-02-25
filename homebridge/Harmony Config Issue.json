@@ -1,0 +1,46 @@
+{
+  "activitiesToPublishAsAccessoriesSwitch" : [
+
+  ],
+  "activitiesToPublishAsInputForTVMode" : [
+
+  ],
+  "addAllActivitiesToSkippedIfSameStateActivitiesList" : true,
+  "cleancache" : "false",
+  "cleanCache" : true,
+  "devicesToPublishAsAccessoriesSwitch" : [
+
+  ],
+  "homeControlsToPublishAsAccessoriesSwitch" : [
+
+  ],
+  "hubIP" : "10.0.0.23",
+  "name" : "Harmony Hub",
+  "numberOfCommandsSentForVolumeControl" : 5,
+  "otherPlatforms" : [
+
+  ],
+  "platform" : "HarmonyHubWebSocket",
+  "playPauseBehavior" : true,
+  "plugin_map" : {
+    "plugin_name" : "homebridge-harmony"
+  },
+  "publishAllTVAsExternalAccessory" : true,
+  "publishDevicesAsIndividualAccessories" : true,
+  "publishGeneralMuteSwitch" : true,
+  "publishHomeControlsAsIndividualAccessories" : false,
+  "publishSequencesAsIndividualAccessories" : true,
+  "publishSwitchActivitiesAsIndividualAccessories" : true,
+  "remoteOverrideCommandsList" : [
+
+  ],
+  "sequencesToPublishAsAccessoriesSwitch" : [
+
+  ],
+  "showCommandsAtStartup" : true,
+  "skippedIfSameStateActivities" : [
+
+  ],
+  "switchAccessories" : true,
+  "TVAccessory" : true
+}

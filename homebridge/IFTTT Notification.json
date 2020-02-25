@@ -1,0 +1,8 @@
+    {
+      "accessory": "Notification",
+      "name": "Notify Heat Off",
+      "ifttt_api_key": "dePEWoYhCG9kJDqLQgbp2H",
+      "ifttt_event": "homebridge",
+      "ifttt_message": "Ecobee heat set to Off", 
+      "ifttt_mute_notification_interval_in_sec": 60 
+    }
