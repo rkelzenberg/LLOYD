@@ -6,8 +6,7 @@
 
   ],
   "addAllActivitiesToSkippedIfSameStateActivitiesList" : true,
-  "cleancache" : "false",
-  "cleanCache" : true,
+  "cleanCache" : false,
   "devicesToPublishAsAccessoriesSwitch" : [
 
   ],
@@ -28,7 +27,7 @@
   "publishAllTVAsExternalAccessory" : true,
   "publishDevicesAsIndividualAccessories" : true,
   "publishGeneralMuteSwitch" : true,
-  "publishHomeControlsAsIndividualAccessories" : false,
+  "publishHomeControlsAsIndividualAccessories" : true,
   "publishSequencesAsIndividualAccessories" : true,
   "publishSwitchActivitiesAsIndividualAccessories" : true,
   "remoteOverrideCommandsList" : [
