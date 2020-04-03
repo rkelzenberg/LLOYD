@@ -1,7 +1,0 @@
-"platforms": [
-  {
-    "platform": "HarmonyHubWebSocket",
-    "name": "Harmony Hub",
-    "hubIP": "10.0.0.23"
-  }
-]

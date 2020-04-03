@@ -1,8 +1,0 @@
-{
-      "accessory": "PowerlossIFTTTNotifier"
-      "name": "PowerlossIFTTTNotifier",
-      "IFTTTkey": "dePEWoYhCG9kJDqLQgbp2H",
-      "IFTTTservice": "Email",
-      "IFTTTvalue2": "some value string here",
-      "IFTTTvalue3": false    
-}

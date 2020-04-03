@@ -1,6 +1,0 @@
-https://graph-na02-useast1.api.smartthings.com/api/token/eb55dccb-d2d4-4aa4-a863-fc2f709beed2/smartapps/installations/8782d4e8-a56d-40ba-af39-df6164bf894c/ifttt/PickAlexaSpeakDownstairs?msg="￼"
-
-
-
-
-https://graph-na02-useast1.api.smartthings.com/api/token/eb55dccb-d2d4-4aa4-a863-fc2f709beed2/smartapps/installations/8782d4e8-a56d-40ba-af39-df6164bf894c/ifttt/PickAlexaSpeakUpstairs?msg="￼"

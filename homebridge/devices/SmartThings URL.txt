@@ -1,3 +1,0 @@
-https://graph-na02-useast1.api.smartthings.com/api/smartapps/installations/32d973c7-9ce8-44ee-9303-6751a50f39cd/deviceDebug?access_token=db23112c-8497-4b6a-a76c-8c264f37a321
-
-https://graph-na02-useast1.api.smartthings.com/api/smartapps/installations/32d973c7-9ce8-44ee-9303-6751a50f39cd/deviceDebug?access_token=db23112c-8497-4b6a-a76c-8c264f37a321
