@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<openbox_config><theme><font place="ActiveWindow"><name>PibotoLt</name><size>16</size><weight>Normal</weight><slant>Normal</slant></font><font place="InactiveWindow"><name>PibotoLt</name><size>16</size><weight>Normal</weight><slant>Normal</slant></font><invHandleWidth>20</invHandleWidth><titleColor>#87919b</titleColor><textColor>#f0f0f0</textColor></theme>
+<keyboard>
+<keybind key="print">
+<action name="Execute">
+<command>scrot '/home/pi/Pictures/Screenshots/scrot-%Y-%m-%d--%H-%M-%S.png'</command>
+</action>
+</keybind>
+</keyboard>
+
+
+</openbox_config>
+
