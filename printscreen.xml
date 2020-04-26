@@ -1,0 +1,9 @@
+<keybind key="print">
+
+<action name="Execute">
+
+<command>scrot /home/pi/Pictures/screwnshots</command>
+
+</action>
+
+</keybind>

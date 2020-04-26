@@ -1,0 +1,98 @@
+{
+    "server": {
+        "home_setup_id": "X-HM://0023ISYWYE3L7",
+        "autostart": 0,
+        "port": 8080,
+        "polling_seconds": 5,
+        "origin": "*"
+    },
+    "client": {
+        "country_code": "US",
+        "latitude": "43.261150",
+        "default_route": "status",
+        "inactive_logoff": 60,
+        "temp_units": "fahrenheit",
+        "postal_code": "03603",
+        "longitude": "-72.410480",
+        "theme": "hoobs-dark",
+        "locale": "en"
+    },
+    "bridge": {
+        "port": 51821,
+        "pin": "031-45-154",
+        "name": "HOOBS",
+        "username": "5D:90:16:16:77:BD"
+    },
+    "description": "",
+    "ports": {},
+    "plugins": [
+        "homebridge-smartthings-v2",
+        "homebridge-harmony",
+        "homebridge-dummy"
+    ],
+    "accessories": [
+        {
+            "name": "Override",
+            "reverse": false,
+            "stateful": true,
+            "time": 1000,
+            "plugin_map": {
+                "plugin_name": "homebridge-dummy",
+                "index": 0
+            },
+            "accessory": "DummySwitch"
+        }
+    ],
+    "platforms": [
+        {
+            "logConfig": {
+                "debug": false,
+                "file": {
+                    "enabled": true,
+                    "level": "debug"
+                },
+                "hideNamePrefix": true,
+                "showChanges": true,
+                "hideTimestamp": false
+            },
+            "disableErrorReporting": false,
+            "platform": "SmartThings-v2",
+            "app_url": "https://graph-na02-useast1.api.smartthings.com:443/api/smartapps/installations/",
+            "access_token": "db23112c-8497-4b6a-a76c-8c264f37a321",
+            "direct_port": 8080,
+            "validateTokenId": false,
+            "app_id": "32d973c7-9ce8-44ee-9303-6751a50f39cd",
+            "temperature_unit": "F",
+            "name": "SmartThings-v2",
+            "local_commands": true,
+            "communityUserName": "GRClark",
+            "plugin_map": {
+                "plugin_name": "homebridge-smartthings-v2"
+            }
+        },
+        {
+            "addAllActivitiesToSkippedIfSameStateActivitiesList": true,
+            "publishGeneralMuteSwitch": true,
+            "mainActivity": "Watch TV",
+            "publishSwitchActivitiesAsIndividualAccessories": true,
+            "publishDevicesAsIndividualAccessories": true,
+            "hubIP": "10.0.0.23",
+            "platform": "HarmonyHubWebSocket",
+            "publishHomeControlsAsIndividualAccessories": true,
+            "playPauseBehavior": true,
+            "switchAccessories": true,
+            "numberOfCommandsSentForVolumeControl": 5,
+            "publishSequencesAsIndividualAccessories": true,
+            "showCommandsAtStartup": true,
+            "name": "Harmony Hub",
+            "publishAllTVAsExternalAccessory": false,
+            "TVAccessory": true,
+            "plugin_map": {
+                "plugin_name": "homebridge-harmony"
+            },
+            "cleanCache": false
+        }
+    ],
+    "package_manager": "npm",
+    "system": "hoobs"
+}
