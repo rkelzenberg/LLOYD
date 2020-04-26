@@ -2,7 +2,7 @@
 
 <action name="Execute">
 
-<command>scrot /home/pi/Pictures/screwnshots</command>
+<command>scrot '/home/pi/Pictures/Screenshots/scrot-%Y-%m-%d--%H-%M-%S.png'</command>
 
 </action>
 
