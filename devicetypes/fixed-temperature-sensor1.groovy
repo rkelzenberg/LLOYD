@@ -36,17 +36,7 @@ metadata {
                     [value: 95, color: "#d04e00"],
                     [value: 96, color: "#bc2323"]
                 ]
-            )
-        }
-        standardTile("up", "device.temperature", inactiveLabel: false, decoration: "flat") {
-            state "default", label:'up', action:"up"
-        }
-        standardTile("down", "device.temperature", inactiveLabel: false, decoration: "flat") {
-            state "default", label:'down', action:"down"
-        }
-        main "temperature"
-        details("temperature","up","down")
-    }
+
 }
 
 // Parse incoming device messages to generate events
