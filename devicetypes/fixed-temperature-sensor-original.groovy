@@ -13,8 +13,9 @@
  */
 metadata {
     // Automatically generated. Make future change here.
-    definition (name: "Simulated Temperature Sensor Fixed 1", namespace: "smartthings/testing", author: "SmartThings") {
+    definition (name: "Simulated Temperature Sensor", namespace: "smartthings/testing", author: "SmartThings") {
         capability "Temperature Measurement"
+        capability "Switch Level"
         capability "Sensor"
         capability "Health Check"
 
